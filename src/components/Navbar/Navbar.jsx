@@ -161,9 +161,19 @@ const Navbar = () => {
           <a
             href="#home"
             onClick={(e) => handleScrollTo(e, 'home')}
-            className="flex items-center gap-2 group cursor-pointer no-underline"
+            className="flex items-center gap-2.5 group cursor-pointer no-underline"
           >
-            <img src="/logo.png" alt="Logo" className=" pl-3 h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+            <span className="relative h-12 w-12 shrink-0 overflow-hidden rounded-full bg-white/95 shadow-[0_0_0_1px_rgba(247,80,35,0.35)] transition-transform duration-300 group-hover:scale-105">
+              <img
+                src="/logo.png"
+                alt=""
+                aria-hidden="true"
+                className="absolute left-0 top-0 h-12 w-auto max-w-none object-contain"
+              />
+            </span>
+            <span className="font-heading text-base font-bold tracking-tight text-white transition-colors duration-300 group-hover:text-primary sm:text-lg">
+              Muneeb <span className="text-primary">Farid</span>
+            </span>
           </a>
 
           {/* Desktop Navigation Links */}

@@ -84,7 +84,7 @@ const Footer = () => {
                 <li className="flex items-start gap-4">
                   <FiMapPin className="text-primary text-xl mt-0.5 flex-shrink-0" />
                   <span className="text-slate-400 font-sans text-[15px]">
-                    farid town y block scheme 3
+                    Bilal Colony House no 350 ,
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
@@ -101,10 +101,10 @@ const Footer = () => {
             {/* Column 4: CTA */}
             <div className="flex flex-col">
               <h4 className="text-white text-xl font-bold mb-6 font-heading border-b border-white/10 pb-4 inline-block">
-                {t('footerCtaTitle') || "Let's Grow Your Business"}
+                {t("Let's Grow Your Business") || "Let's Grow Your Business"}
               </h4>
               <p className="text-slate-400 text-sm leading-relaxed mb-6 font-sans">
-                {t('footerCtaDesc') || "Ready to scale your business with clear, results-driven AI strategies? Let's connect and build the future."}
+                {t("Ready to scale your business with clear, results-driven AI strategies? Let's connect and build the future.") || "Ready to scale your business with clear, results-driven AI strategies? Let's connect and build the future."}
               </p>
               <button
                 onClick={() => {
@@ -114,7 +114,7 @@ const Footer = () => {
                 className="inline-flex mt-6 items-center gap-2 px-8 py-3 rounded-full text-white font-bold transition-all hover:scale-105 shadow-[0_4px_15px_rgba(247,80,35,0.4)] w-fit cursor-pointer"
                 style={{ backgroundColor: '#f75023' }}
               >
-                <FiPhone className="text-lg" /> {t('contactGetInTouch') || 'Get In Touch'}
+                <FiPhone className="text-lg" /> {t("Get In Touch") || "Get In Touch"}
               </button>
             </div>
 

@@ -107,7 +107,7 @@ const Home = () => {
           <span className="text-primary font-medium text-[24px] sm:text-[42px] mb-1 inline-block animate-reveal-blur delay-1">
             {t('homeHello')}
           </span>
-          <h1 className="text-[50px] md:text-[72px] lg:text-[85px] font-bold text-white leading-[1.1] tracking-tight mb-5 font-sans animate-reveal-blur delay-2">
+          <h1 className="text-[50px] md:text-[72px] lg:text-[85px] font-bold text-primary leading-[1.1] tracking-tight mb-5 font-sans animate-reveal-blur delay-2 drop-shadow-[0_0_18px_rgba(247,80,35,0.22)]">
             {t('homeName')}
           </h1>
           <p className="text-[20px] md:text-[24px] lg:text-[28px] font-medium text-white mb-6 font-sans animate-reveal-blur delay-3">

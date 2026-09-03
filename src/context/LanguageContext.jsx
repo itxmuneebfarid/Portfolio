@@ -103,7 +103,7 @@ const translations = {
     j11_per: "2023",
 
     j12_title: "Bachelor of Computer Science",
-    j12_sub: "University of Lahore, PK",
+    j12_sub: "Comsats University Islamabad Sahiwal Campus, Pakistan",
     j12_desc: "Focused on Artificial Intelligence, Machine Learning, and Advanced Software Engineering.",
     j12_per: "2020 - 2024",
 
